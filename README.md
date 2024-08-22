@@ -57,7 +57,7 @@ To test the configuration and force an update on a USG:
 1. SSH into your USG device.
 2. Run `ls /run/ddclient/` (e.g.: `/run/ddclient/ddclient_eth0.pid`)
 3. Note the pid file path as this will tell you what configuration to use. (e.g.: `ddclient_eth0`)
-4. Run `sudo ddclient -daemon=0 -verbose -noquiet -debug -file /etc/ddclient/<config>.conf` (e.g., `sudo ddclient -daemon=0 -verbose -noquiet -debug -file /etc/ddclient/ddclient_eth0.conf`).
+4. Run `sudo ddclient -daemon=0 -verbose -noquiet -debug -file /etc/ddclient/<config>.conf` (e.g., `sudo ddclient -daemon=0 -verbose -noquiet -debug -file /etc/ddclient/ddclient_eth0.conf`). 
 5. This should output `SUCCESS` when the DNS record is set.
 
 #### Important Notes!
